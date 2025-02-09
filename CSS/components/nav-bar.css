@@ -1,0 +1,55 @@
+body{
+    height: 100vh;
+}
+.nav{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 10vh;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    background-color: #f9f9fa;
+    box-sizing: border-box;
+    padding: 20px 30px;
+}
+.nav__list{
+    display: flex;
+    justify-content: space-around;
+}
+.nav__link{
+    position: relative;
+    color: inherit;
+}
+@keyframes notificationAnimation{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: none;
+    }
+}
+
+.nav__notification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    color: antiquewhite; 
+    border-radius: 50%;  
+    font-weight: 600;
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    animation: notificationAnimation 2s ease-in-out infinite;
+}
+.nav__chat{
+    width: 20px;
+    height: 20px;
+}
+.nav__infor{
+    width: 6px;
+    height: 6px;
+    right: -5px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <link rel="stylesheet" href="../kokoa-clone-2023/css/styles.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+</head>
+<body id="chat-screen">
+    <!--status-bar-->
+    <div id="status-bar" class="chat__fixed chat__status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full" style="color: #000000;"></i>
+            <i class="fa-solid fa-bolt-lightning"></i>
+        </div>
+    </div>
+    <!--Alternative Screen Header-->
+    <div class="alt-screen-header chat__fixed">
+        <span class="alt-screen-header__column"><i class="fa-solid fa-angle-left fa-xl" style="color: #000000;"></i></span>
+        <span class="alt-screen-header__column alt-screen-header__column__text" style="font-weight: 700;">유튜브코리아</span>
+        <div class="alt-screen-header__icons alt-screen-header__column">
+            <span class="alt-screen-header__icons__icon"><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #000000;"></i></span>
+            <i class="fa-solid fa-bars alt-screen-header__icons__icon fa-xl" style="color: #000000;"></i>
+        </div>
+    </div>
+    <main class="main-screen">
+        <div class="chat__timestamp">
+            <span class="date__text">Tuseday, August 29, 2023</span>
+        </div>
+        <div class="chat-reception">
+            <img class="user-component__avatar" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/YouTube_social_white_square_%282017%29.svg/1200px-YouTube_social_white_square_%282017%29.svg.png"/>
+            <div class="chat-reception__info">
+                <span class="chat__author">유튜브코리아</span>
+                <div class="chat-reception__content">
+                    <span class="chat__bubble">안녕하세요. 유튜브코리아입니다.</span>
+                    <span class="chat__time">21:27</span>
+                </div>
+            </div>
+        </div>
+        <div class="chat-sending">
+            <div class="chat-sending__content">
+                <span class="chat__time">23:18</span>
+                <span class="chat__bubble">?!?!?</span>
+            </div>
+        </div>
+    </main>
+    <!--keyboard-->
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus fa-xl" style="color: #000000;"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text"/>
+            <i class="fa-regular fa-face-smile fa-xl" style="color: #000000;"></i> 
+            <button>
+                <i class="fa-solid fa-circle-up fa-2x" style="color: #fef01b;"></i> 
+            </button>  
+        </div> 
+    </form>
+
+    <script src="https://kit.fontawesome.com/1285b683fd.js" crossorigin="anonymous"></script>
+</body>
+</html>

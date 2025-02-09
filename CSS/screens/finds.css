@@ -1,0 +1,75 @@
+.main-screen{
+    height: 75vh;
+    padding: 0 var(--horizontal-space);
+    overflow-y: scroll;
+}
+.channel{
+    width: 100%;
+    padding: 15px 0;
+    border-top: 1px solid rgba(0,0,0,.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(0,0,0,.5);
+}
+.main-screen__text{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0,0,0,.5);
+}
+.open-chat__column{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+.open-chat__img{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+}
+.open-chat__img img{
+    width: 100%;
+    height: 100%;
+}
+.likey{
+    width: 50px;
+    height: 20px;
+    font-size: 13px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.open-chat__description__title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.open-chat__description__more-infor{
+    font-size: 15px;
+    color: rgba(0,0,0,.5);
+    margin-bottom: 8px;
+}
+.open-chat__description__writer-infor{
+    font-size: 13px;
+    color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.active{
+    color: darksalmon;
+}
